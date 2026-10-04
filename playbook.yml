@@ -1,0 +1,19 @@
+- name: Установка и настройка Apache веб-сервера
+  hosts: webservers
+  become: true
+  roles:
+    - apache
+  post_tasks:
+    - name: Проверка доступности веб-сайта
+      uri:
+        url: "http://{{ ansible_default_ipv4.address }}"
+        return_content: yes
+        status_code: 200
+      register: result
+      until: result.status == 200
+      retries: 3
+      delay: 5
+
+    - name: Вывод результата проверки
+      debug:
+        msg: "Веб-сайт доступен. Статус: {{ result.status }}"
