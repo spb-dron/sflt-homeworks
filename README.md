@@ -9,8 +9,8 @@
 Любые вопросы по решению задач задавайте в чате учебной группы. Ссылку вы найдёте в письме на вашей электронной почте.
 
 
-1. [alt text](https://github.com/spb-dron/sflt-homeworks/main/nlb.png)(nlb.png)
+1. [alt text](https://github.com/spb-dron/sflt-homeworks/blob/main/nlb.png)(nlb.png)
 
-2. [запрос1](https://github.com/spb-dron/sflt-homeworks/main/req1.png)(req1.png)
+2. [запрос1](https://github.com/spb-dron/sflt-homeworks/blob/main/req1.png)(req1.png)
 
-3. [запрос2](https://github.com/spb-dron/sflt-homeworks/main/req2.png)(req2.png)
+3. [запрос2](https://github.com/spb-dron/sflt-homeworks/blob/main/req2.png)(req2.png)
